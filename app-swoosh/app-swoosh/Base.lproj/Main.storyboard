@@ -5,7 +5,6 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13147.4"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,10 +15,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--WelcomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dGx-Sg-Cxc"/>
                         <viewControllerLayoutGuide type="bottom" id="4C7-uQ-XDo"/>
@@ -98,10 +97,10 @@
             </objects>
             <point key="canvasLocation" x="34" y="122"/>
         </scene>
-        <!--View Controller-->
+        <!--LeagueVC-->
         <scene sceneID="EIn-lb-WZ2">
             <objects>
-                <viewController id="Tvw-e3-Wxf" sceneMemberID="viewController">
+                <viewController id="Tvw-e3-Wxf" customClass="LeagueVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="R9K-Fa-bs8"/>
                         <viewControllerLayoutGuide type="bottom" id="9Pl-0y-cfZ"/>
@@ -233,10 +232,10 @@
             </objects>
             <point key="canvasLocation" x="839" y="122"/>
         </scene>
-        <!--View Controller-->
+        <!--SkillVC-->
         <scene sceneID="J3v-5t-Uwl">
             <objects>
-                <viewController id="jcW-Wa-1vu" sceneMemberID="viewController">
+                <viewController id="jcW-Wa-1vu" customClass="SkillVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rSN-wh-OCN"/>
                         <viewControllerLayoutGuide type="bottom" id="ucf-ns-yez"/>
