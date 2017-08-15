@@ -200,6 +200,9 @@
                                 <state key="normal" title="NEXT">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onNextTapped:" destination="Tvw-e3-Wxf" eventType="touchUpInside" id="I8P-qe-qgq"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -222,6 +225,9 @@
                             <constraint firstAttribute="trailingMargin" secondItem="DDB-RU-uP7" secondAttribute="trailing" id="tFe-1w-9Fq"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="jcW-Wa-1vu" kind="show" identifier="skillVCSegue" id="34t-T8-mlS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eq6-Wk-iME" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="CEO-y8-vub" userLabel="Exit" sceneMemberID="exit"/>
