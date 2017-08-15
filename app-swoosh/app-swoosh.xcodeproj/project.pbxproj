@@ -60,8 +60,8 @@
 		8D8ED4391F4113870096306F /* app-swoosh */ = {
 			isa = PBXGroup;
 			children = (
-				8DF1AB021F42CC3400625575 /* Controller */,
 				8DF1AB031F42CC4C00625575 /* Model */,
+				8DF1AB021F42CC3400625575 /* Controller */,
 				8D8ED44C1F4120FE0096306F /* View */,
 				8D8ED43A1F4113870096306F /* AppDelegate.swift */,
 				8D8ED43E1F4113880096306F /* Main.storyboard */,

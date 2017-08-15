@@ -88,10 +88,6 @@
                             <constraint firstItem="dD4-U6-c24" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="z1k-OS-Mvr"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="bgImg" destination="dD4-U6-c24" id="iQC-te-81D"/>
-                        <outlet property="swoosh" destination="UMP-Pe-o7I" id="tw2-eQ-yuk"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
